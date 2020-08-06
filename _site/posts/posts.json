@@ -1,18 +1,18 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to Pavitra's website",
-    "description": "Welcome to our new blog, Pavitra's website. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2020-08-05-first-post/",
+    "title": "First Post",
+    "description": "A short description of the post.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Unknown",
+        "url": {}
       }
     ],
     "date": "2020-08-05",
     "categories": [],
     "preview": {},
-    "last_modified": "2020-08-05T18:38:46-05:00",
-    "input_file": {}
+    "last_modified": "2020-08-05T20:03:41-05:00",
+    "input_file": "first-post.utf8.md"
   }
 ]
