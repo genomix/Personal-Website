@@ -41,4 +41,8 @@ code {
   font-size: 0.9em;
 }
 
+.distill-site-nav a:hover {
+  color: #383838;
+}
+
 
