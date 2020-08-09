@@ -8,8 +8,6 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Resources"
-      href: resources.html
     - text: "About"
       href: about.html
     - icon: fa fa-twitter
@@ -30,3 +28,4 @@ output:
     css: styles.css
 rss:
   full_content: TRUE
+  
