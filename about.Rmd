@@ -1,9 +1,23 @@
 ---
 title: "About this blog"
 description: |
-  Some additional details about the blog
+  Crazy about regression of all kinds
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+# CV
+
+* Bachelor's degree from R.V.College of Engineering (Computer Hardware)
+* Doctorate from UT Southwestern/ UT Arlington (Cancer Research)
+
+## I currently
+
+Work as a data analyst for a startup healthcare analytics company in Dallas, TX. I happily automate the data flow and set up QA tests. I hope to start doing predictive analytics once the data infrastructure is sound. My primary tools are sadly, all enterprise. Wherescape ETL, Snowflake warehouse, SQL Server database, AWS EC2
+
+## Contact
+
+Github:  [`@genomixgmailcom`](https://github.com/genomix)
+Twitter: [`@genomixgmailcom`](https://twitter.com/genomixgmailcom)
