@@ -14,7 +14,7 @@ categories:
   - rayshader
   - Derek Watkin
   - USGS Earth Explorer
-  - R
+  - GEBCO
 preview: CopyOfpreview.png
 twitter:
   site: "@genomixgmailcom"
