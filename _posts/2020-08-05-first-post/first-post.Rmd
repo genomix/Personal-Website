@@ -1,20 +1,75 @@
 ---
-title: "First Post"
+title: "Rayshader in the Ladakh area"
 description: |
-  A short description of the post.
+  Beautiful terrain in the Ladakh area...
 author:
-  - name: Unknown
-date: 08-05-2020
-output:
+  - name: Pavitra Chakravarty
+base_url: https://genomix.netlify.app/
+output: 
   distill::distill_article:
+    toc: true
+    toc_depth: 3
     self_contained: false
+categories:
+  - rayshader
+  - Derek Watkin
+  - USGS Earth Explorer
+  - R
+preview: CopyOfpreview.png
+twitter:
+  site: "@genomixgmailcom"
+  creator: "@genomixgmailcom"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
+
+library(rvest)
+library(tidyverse)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+## Source Data
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+The data comes from [Wikipedia](https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify), specifically a list of the most streamed songs on Spotify. We can scrape the table into R w/ `rvest`.
 
+```{r load packages, eval = FALSE}
+library(rvest)
+library(tidyverse)
+```
+
+Now that we have the libraries loaded, let's read in the data, pull in the top 100, and add some new columns to use across our charts.
+
+```{r get data}
+url <- "https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify"
+
+df <- url %>% 
+  read_html() %>% 
+  html_table(fill = TRUE) %>% 
+  .[[1]] %>% 
+  set_names(nm = c("rank", "song_name", "artist", "album", "streams", "date_published")) %>% 
+  slice(1:100) %>% 
+  mutate(num_rank = parse_number(rank),
+         streams_comma = streams,
+         streams = parse_number(streams)/1000,
+         streams_text = if_else(
+           num_rank == 1,
+           paste(round(streams, digits = 2), "billion streams"),
+           as.character(round(streams, digits = 2))
+           ),
+         lab_text = glue::glue("{rank}. {song_name} by {artist}"),
+  ) %>% 
+  as_tibble()
+
+df %>% glimpse()
+```
+<aside> Note that there is `\` in front of the song name and in the lab_text as there we have to escape the `"` in each of those strings. </aside>
+
+Data is ready to go!
+
+
+# Chart 1: Font-height bars
+
+```{r fontheight bars}
+font_height_bars <- df %>% 
+    filter(num_rank <=10) %>
+```
