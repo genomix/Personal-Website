@@ -1,14 +1,32 @@
-name: "Personal-Website"
-title: "Pavitra's website"
+name: "pavitra-blog"
+title: "Pavitra's Blog"
 description: |
-  Pavitra's website
+ My data science journey using R
+base_url: https://genomix.netlify.app/
 output_dir: "_site"
 navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Resources"
+      href: resources.html
     - text: "About"
       href: about.html
-output: distill::distill_article:
-css: styles.css
-
+    - icon: fa fa-twitter
+      href: https://twitter.com/genomixgmailcom
+    - icon: fa fa-github
+      href: https://github.com/genomix
+    - icon: fa fa-rss
+      href: sitemap.xml
+collections:
+  posts:
+    share: [twitter]
+google_analytics: "UA-166026965-1"
+twitter:
+  site: "@genomixgmailcom"
+  creator: "@genomixgmailcom"
+output: 
+  distill::distill_article:
+    css: styles.css
+rss:
+  full_content: TRUE
