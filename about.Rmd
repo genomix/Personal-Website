@@ -23,7 +23,10 @@ Work as a data analyst for a startup healthcare analytics company in Dallas, TX.
 
 ## Publications
 
-A nice package[@jqr]. A nice paper[@refmanager].
+* [@Afib]
+* [@Peptoid]
+* [@IJC]
+* [@PNAS]
 
 ## Contact
 
