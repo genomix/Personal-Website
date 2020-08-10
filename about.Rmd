@@ -18,20 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Work as a data analyst for a startup healthcare analytics company in Dallas, TX. I happily automate the data flow and set up QA tests. I hope to start doing predictive analytics once the data infrastructure is sound. My primary tools are sadly, all enterprise. Wherescape ETL, Snowflake warehouse, SQL Server database, AWS EC2
 
-<<<<<<< HEAD
-## Publications
-
-* ![@Afib]
-* ![@Peptoid]
-* ![@IJC]
-* ![@PNAS]
-
->>>>>>> fb88258253dbbea935ad6c8900ae31cc4a8981f3
-=======
->>>>>>> 80a84aeee3bec74171426bb75203f3fb89491008
 ## Contact
 
-Github:  [`@genomixgmailcom`](https://github.com/genomix)
-Twitter: [`@genomixgmailcom`](https://twitter.com/genomixgmailcom)
-
-## Publications
+Github:  [`@github`](https://github.com/genomix)
+Twitter: [`@twitter`](https://twitter.com/genomixgmailcom)
