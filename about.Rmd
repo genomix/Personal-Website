@@ -2,6 +2,10 @@
 title: "About this blog"
 description: |
   Crazy about regression of all kinds
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: refs.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -16,6 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ## I currently
 
 Work as a data analyst for a startup healthcare analytics company in Dallas, TX. I happily automate the data flow and set up QA tests. I hope to start doing predictive analytics once the data infrastructure is sound. My primary tools are sadly, all enterprise. Wherescape ETL, Snowflake warehouse, SQL Server database, AWS EC2
+
+## Publications
+
+A nice package[@jqr]. A nice paper[@refmanager].
 
 ## Contact
 

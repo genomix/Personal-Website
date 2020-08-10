@@ -4,6 +4,7 @@ description: |
  My data science journey using R
 base_url: https://genomix.netlify.app/
 output_dir: "_site"
+citations: true
 navbar:
   right:
     - text: "Home"
