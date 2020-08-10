@@ -1,18 +1,23 @@
 [
   {
     "path": "posts/2020-08-05-first-post/",
-    "title": "First Post",
-    "description": "A short description of the post.",
+    "title": "Rayshader in the Ladakh area",
+    "description": "Beautiful terrain in the Ladakh area...",
     "author": [
       {
-        "name": "Unknown",
+        "name": "Pavitra Chakravarty",
         "url": {}
       }
     ],
-    "date": "2020-08-05",
-    "categories": [],
+    "date": "2020-08-10",
+    "categories": [
+      "rayshader",
+      "Derek Watkin",
+      "USGS Earth Explorer",
+      "GEBCO"
+    ],
     "preview": {},
-    "last_modified": "2020-08-05T20:08:26-05:00",
-    "input_file": {}
+    "last_modified": "2020-08-10T09:24:45-05:00",
+    "input_file": "first-post.utf8.md"
   }
 ]
