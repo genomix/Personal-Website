@@ -2,12 +2,13 @@
 title: "About this blog"
 description: |
   Crazy about regression of all kinds
+output: distill::distill_article
  
 author:
   - name: Pavitra Chakravarty 
     url: https://genomix.netlify.app
     affiliation: Converging Health
-    affiliation_url: https://example.com/spacelysprokets
+    affiliation_url: https://mypha.com/
 journal: "Journal of Atrial Fibrillation"
 doi: "10.4022/jafib.2141"
 slug: Afib
