@@ -1,26 +1,25 @@
 .distill-site-nav {
-  font-family: 'Fira Mono', sans-serif;
-  color: #000;
+  font-family: 'Spectral', sans-serif;
+  color: #ffb6c1;
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
 }
 
 .distill-site-header {
-  font-family: 'Fira Mono', sans-serif;
-  color: #000;
+  font-family: 'Spectral', sans-serif;
+  color: #ffb6c1;
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Fira Mono', sans-serif;
-  color: color: #383838;
+  font-family: 'Spectral', sans-serif;
+  color: #ffb6c1;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Spectral');
 
 html, body, p {
   
@@ -28,7 +27,7 @@ html, body, p {
   font-weight: 200;
   line-height: 1.3; 
   font-size: 1.0em;
-  color: #333333;
+  color: #000000;
   font-style: normal;
   
 }
