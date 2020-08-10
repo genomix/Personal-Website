@@ -2,6 +2,12 @@
 title: "About this blog"
 description: |
   Crazy about regression of all kinds
+  base_url: https://genomix.netlify.app/
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
 bibliography: refs.bib
 ---
 
