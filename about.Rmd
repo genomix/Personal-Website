@@ -23,10 +23,10 @@ Work as a data analyst for a startup healthcare analytics company in Dallas, TX.
 
 ## Publications
 
-* [@Afib]
-* [@Peptoid]
-* [@IJC]
-* [@PNAS]
+* ![@Afib]
+* ![@Peptoid]
+* ![@IJC]
+* ![@PNAS]
 
 >>>>>>> fb88258253dbbea935ad6c8900ae31cc4a8981f3
 ## Contact
