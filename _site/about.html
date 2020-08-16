@@ -24,7 +24,6 @@
   <meta property="description" itemprop="description" content="Crazy about regression of all kinds"/>
 
 
-  <meta name="article:author" content="Pavitra Chakravarty"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Pavitra&#39;s Blog: About this blog"/>
@@ -45,7 +44,7 @@
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output","author","journal","doi","slug","citation_url","bibliography"]}},"value":[{"type":"character","attributes":{},"value":["About this blog"]},{"type":"character","attributes":{},"value":["Crazy about regression of all kinds\n"]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Pavitra Chakravarty"]},{"type":"character","attributes":{},"value":["https://genomix.netlify.app"]},{"type":"character","attributes":{},"value":["Converging Health"]},{"type":"character","attributes":{},"value":["https://mypha.com/"]}]}]},{"type":"character","attributes":{},"value":["Journal of Atrial Fibrillation"]},{"type":"character","attributes":{},"value":["10.4022/jafib.2141"]},{"type":"character","attributes":{},"value":["Afib"]},{"type":"character","attributes":{},"value":["https://genomix.netlify.app/about"]},{"type":"character","attributes":{},"value":["biblio.bib"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output","bibliography"]}},"value":[{"type":"character","attributes":{},"value":["About this blog"]},{"type":"character","attributes":{},"value":["Crazy about regression of all kinds\n"]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"character","attributes":{},"value":["biblio.bib"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1286,13 +1285,16 @@
   </script>
   <style type="text/css">
   .distill-site-nav {
-    background-color: black;
+      background-color: black;
       font-family: 'Spectral', sans-serif;  
+      color: #000000;
+      font-size: 15px;
+      font-weight: 400;
   }
 
   .distill-site-header {
     font-family: 'Spectral', sans-serif;
-    color: #ffb6c1;
+    color: #000;
     background-color: #fff;
     font-size: 15px;
     font-weight: 400;
@@ -1311,7 +1313,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this blog","description":"Crazy about regression of all kinds","doi":"10.4022/jafib.2141","authors":[{"author":"Pavitra Chakravarty","authorURL":"https://genomix.netlify.app","affiliation":"Converging Health","affiliationURL":"https://mypha.com/"}]}
+{"title":"About this blog","description":"Crazy about regression of all kinds","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1346,11 +1348,6 @@
 <p><p>Crazy about regression of all kinds</p></p>
 </div>
 
-<div class="d-byline">
-  Pavitra Chakravarty <a href="https://genomix.netlify.app" class="uri">https://genomix.netlify.app</a> (Converging Health)<a href="https://mypha.com/" class="uri">https://mypha.com/</a>
-  
-
-</div>
 
 <div class="d-article">
 <h1 id="cv">CV</h1>
@@ -1362,6 +1359,33 @@
 <p>Work as a data analyst for a startup healthcare analytics company in Dallas, TX. I happily automate the data flow and set up QA tests. I hope to start doing predictive analytics once the data infrastructure is sound. My primary tools are sadly, all enterprise. Wherescape ETL, Snowflake warehouse, SQL Server database, AWS EC2</p>
 <h1 id="contact">Contact</h1>
 <p>Github: <a href="https://github.com/genomix"><code>@github</code></a> Twitter: <a href="https://twitter.com/genomixgmailcom"><code>@twitter</code></a></p>
+<h1 class="unnumbered" id="bibliography">Bibliography</h1>
+<div id="refs" role="doc-bibliography">
+
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>
+[1] A. Case, A. Desmond, D. Lopes, et al. &quot;The immunogenicity
+of Peptoid-Protein Conjugates&quot;. In: _Conjugates. Journal of
+Vaccines &amp; Vaccination_ (2016). DOI:
+10.4172/2157-7560.1000329.
+
+[2] P. Chakravarty, R. Marches, N. Zimmerman, et al. &quot;Thermal
+Ablation of tumor cells with antibody-functionalized
+single-walled carbon nanotubes&quot;. In: _PNAS_ (2008). DOI:
+10.1073/pnas.0803557105.
+
+[3] R. Marches, P. Chakravarty, I. H. Musselman, et al.
+&quot;Specific thermal ablation of tumor cells using single-walled
+carbon nanotubes targeted by covalently coupled monoclonal
+antibodies&quot;. In: _International Journal of Cancer_ (2009).
+DOI: 10.1002/ijc.24659.
+
+[4] A. Volgman, P. Dunn, A. Sundberg, et al. &quot;Risk Factors for
+Symptomatic Atrial Fibrillation-Analysis of an Outpatient
+Database&quot;. In: _Journal of Atrial Fibrillation_ (2019). DOI:
+10.4022/jafib.2141.</code></pre>
+</div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -1375,28 +1399,25 @@
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom"></div>
 <script id="distill-bibliography" type="text/bibtex">
-@Article{Afib,
-    author = {A.S. Volgman, P. Dunn, A. Sundberg, S. Conard, Pavitra Chakravarty, Z. Htway, A. Waldo, C.
-    Albert, M. P. Turakhia, G. V. Naccarelli},
+@Article{afib,
     title = {Risk Factors for Symptomatic Atrial Fibrillation-Analysis of
     an Outpatient Database},
+    author = {A.S. Volgman and P. Dunn and A. Sundberg and S. Conard and Pavitra Chakravarty and { Z. Htway, A. Waldo, C.Albert, M. P. Turakhia, G. V. Naccarelli}},
     journal = {Journal of Atrial Fibrillation},
     year = {2019},
     doi = {10.4022/jafib.2141},
   }
   
-  @Article{Peptoid,
-    author = {A. Case, A. Desmond, D. Lopes, K. Dye, K. Mapes, S. Ruback, I. Pop, J.K. Kim, Pavitra
-    Chakravarty, J. E. Smallshaw, L. M. Pop, E. S. Vitetta},
+  @Article{peptoid,
+    author = {A. Case and A. Desmond and D. Lopes and K. Dye and K. Mapes and S. Ruback and I. Pop and J.K. Kim and Pavitra Chakravarty and {J. E. Smallshaw, L. M. Pop, E. S. Vitetta}},
     title = {The immunogenicity of Peptoid-Protein Conjugates},
     journal = {Conjugates. Journal of Vaccines & Vaccination},
     year = {2016},
     doi = {10.4172/2157-7560.1000329},
   }
   
-  @Article{IJC,
-    author = {R. Marches, Pavitra Chakravarty, I. H. Musselman, P. Bajaj, R. N. Azad, P. Pantano, R. K. Draper, E.
-    S. Vitetta},
+  @Article{ijc,
+    author = {R. Marches and Pavitra Chakravarty and {I. H. Musselman and P. Bajaj and R. N. Azad and P. Pantano and R. K. Draper and E.S. Vitetta}},
     title = {Specific thermal ablation of tumor cells using single-walled carbon nanotubes targeted by
     covalently coupled monoclonal antibodies},
     journal = {International Journal of Cancer},
@@ -1404,9 +1425,8 @@
     doi = {10.1002/ijc.24659},
   }
   
-  @Article{PNAS,
-    author = {Pavitra Chakravarty, R. Marches, N.S. Zimmerman, A. D.-E. Swafford, P. Bajaj, I. H. Musselman, P.
-    Pantano, R. K. Draper, E. S. Vitetta},
+  @Article{pnas,
+    author = {Pavitra Chakravarty and {R. Marches and N.S. Zimmerman and A. D.-E. Swafford and P. Bajaj and I. H. Musselman and P.Pantano and R. K. Draper and E. S. Vitetta}},
     title = {Thermal Ablation of tumor cells with antibody-functionalized
     single-walled carbon nanotubes},
     journal = {PNAS},
