@@ -28,3 +28,11 @@ html, body, p {
   font-style: normal;
   
 }
+
+code {
+  font-family: 'Spectral', sans-serif;
+  color: #383838;
+  background: #F5F5F5;
+  font-weight: 400;
+  font-size: 0.9em;
+}
