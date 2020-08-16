@@ -1,7 +1,7 @@
 .distill-site-nav {
-    background-color: #000000;
+    background-color: black;
     font-family: 'Spectral', sans-serif;  
-    color: #000;
+    color: #000000;
     font-size: 15px;
     font-weight: 400;
 }
@@ -14,3 +14,6 @@
   font-weight: 400;
 }
 
+.distill-site-nav a:hover {
+  color: #383838;
+}
