@@ -18,6 +18,16 @@
   color: #383838;
 }
 
+p a:hover  {
+    color: #00ff00;
+}
+
+/* Change appearance of headers */
+h1, h2, h3, h4, h5 {
+    font-family: 'Spectral', sans-serif;
+    font-weight: 700;
+}
+
 html, body, p {
   
  font-family: 'Spectral', sans-serif;
