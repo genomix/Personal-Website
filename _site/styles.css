@@ -17,3 +17,14 @@
 .distill-site-nav a:hover {
   color: #383838;
 }
+
+html, body, p {
+  
+ font-family: 'Spectral', sans-serif;
+  font-weight: 200;
+  line-height: 1.3; 
+  font-size: 1.0em;
+  color: #333333;
+  font-style: normal;
+  
+}
