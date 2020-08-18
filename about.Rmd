@@ -24,14 +24,5 @@ Work as a data analyst for a startup healthcare analytics company in Dallas, TX.
 
 Github:  [`@github`](https://github.com/genomix)
 Twitter: [`@twitter`](https://twitter.com/genomixgmailcom)
-
-# Bibliography {-}
-
-<div id="refs"></div>
-
-```{r , include=TRUE}
-mybib <- RefManageR::ReadBib("biblio.bib", check = FALSE) 
-mybib
-```
-
+Google Scholar: [`@scholar`](https://scholar.google.com/citations?user=Oz3qmlUAAAAJ&hl=en)
 
